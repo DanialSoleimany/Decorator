@@ -1,6 +1,8 @@
 # Decorator in Python
 What is Decorator in Python?
+
 A decorator is a higher-order function that takes another function as its input and extends the behavior of the input function without explicitly modifying its code. Decorators are often used to add functionality to functions or methods, such as logging, timing, authentication, etc., without altering their original implementation.
+
 authenticated_user = True: This line simulates the authentication status of a user. In the example, the user is initially authenticated.
 
 Let's take the example of a simple authentication system for a web application. We'll create a decorator that checks whether a user is authenticated before allowing them to access a specific view function. We'll use *args and **kwargs to pass any arguments the view function might require.
